@@ -19,7 +19,7 @@ function handleLogout() {
     sessionStorage.clear()
 
     // Redirect to the signup page
-    window.location.href = "../index.html";
+    window.location.href = "index.html";
   }
 
 logoutBtn.addEventListener('click',handleLogout)
